@@ -30,6 +30,15 @@ Enhance the sector rotation strategy to invest in at least 5 sectors, incorporat
 ### Backtest Engine (`main.py`)
 - Set start date strictly to 5 years ago from today.
 
+## Performance Visualization
+![Performance Plot](./performance_plot_v2.png)
+
+## Code Structure
+- `data_loader.py`: Fetches data from Yahoo Finance.
+- `strategy.py`: Calculates factors and generates signals.
+- `backtest.py`: Simulates portfolio performance.
+- `main.py`: Entry point for execution.
+
 ## Verification Plan
 
 ### Automated Tests
